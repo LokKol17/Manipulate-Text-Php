@@ -9,12 +9,13 @@
       "email": "lokkol17@proton.me"
     }
   ],
-  "require": {
-
-  },
-"autoload": {
+  "autoload": {
     "psr-4": {
-      "Lok\\ManipulateText\\": "src/"
+      "Lok\\ManipulateText\\": "src/",
+        "Lok\\ManipulateText\\Tests\\": "tests/"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "10"
   }
 }
