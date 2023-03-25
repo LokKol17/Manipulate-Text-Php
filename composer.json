@@ -1,0 +1,20 @@
+{
+  "name": "lokkol17/manipulate-text-php",
+  "description": "A library for manipulating text in PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lok",
+      "email": "lokkol17@proton.me"
+    }
+  ],
+  "require": {
+
+  },
+"autoload": {
+    "psr-4": {
+      "Lok\\ManipulateText\\": "src/"
+    }
+  }
+}
